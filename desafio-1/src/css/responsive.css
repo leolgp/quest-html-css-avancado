@@ -1,0 +1,34 @@
+@media(max-width:750px){
+
+    .header{
+        flex-direction: column;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    .logo h1{
+        font-size: 4rem;
+    }
+
+    .menu li{
+        padding: 33px 0; /*colocou este padding pq cada menu li a já tem 17px de padding.*/ 
+    }
+
+    .menu li a{
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .menu li:last-child{
+        margin-top: 2rem;
+    }
+
+    .menu li a.btn{
+        font-size: 1.8rem;
+        padding: 15px 22px;
+
+    }
+}

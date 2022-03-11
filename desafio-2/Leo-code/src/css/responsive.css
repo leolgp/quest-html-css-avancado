@@ -1,0 +1,28 @@
+@media(max-width:1024px){
+    .quadros{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }  
+}
+
+@media(max-width:730px){
+    .quadros{
+        margin: 20px 0;
+    }
+
+    .quadro{
+        margin: 1px 0;
+    }
+}
+
+@media(max-width:370px){
+    .quadros{
+        margin: 20px 12px;
+        width: 95%;
+    }
+}
+ 
+
+

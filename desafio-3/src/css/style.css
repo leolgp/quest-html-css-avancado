@@ -1,0 +1,102 @@
+h1{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+
+.grade{
+    display: grid;
+    margin: 22px 38px 55px 20px;
+    grid-gap: 20px;
+    grid: 
+    "video propaganda" 56px
+    "video titulos" 313px /
+    326px 271px;
+    ;
+}
+
+.video{
+    grid-area: video;
+}
+
+.video iframe{
+    width: 326px;
+    height: 202px;
+}
+
+.video h1, h2{
+    margin: 10px 0;
+}
+
+
+.propaganda{
+    grid-area: propaganda;
+    background-image: url(../image/projecao-astral.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 0 top -40px;
+    color: white;
+}
+
+.propaganda img{
+    width: 270px;
+    height: 56px;
+    object-fit: cover;
+}
+
+.inscricao {
+    padding: 5px;
+    font-family: "Segoe Script","Savoye LET";
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.inscricao strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.inscricao #informacoes{
+    font-size: 7px;
+    font-weight: 700;
+    background-color: darkslategray;
+    padding: 3px;
+    color: white;
+}
+
+.titulos{
+    grid-area: titulos;   
+}
+
+.titulo{
+    flex-direction: column;
+    display: flex;
+}
+
+.video-anexo{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.video-anexo iframe{
+    width: 101px;
+    height: 71px;
+}
+
+.titulo h1{
+    margin: 0 0 7px 4px;
+}
+
+.titulo h2{
+    margin: 0 0 5px 4px;
+}

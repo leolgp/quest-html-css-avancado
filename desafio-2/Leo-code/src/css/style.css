@@ -1,0 +1,42 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    line-height: 35.25px;
+}
+
+.quadros{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px 10px;
+    position: absolute;
+}
+
+.quadro{
+    margin: 10px;
+    height: 430px;
+    width: 335px;
+    position: relative;
+}
+
+.quadro .texto{
+    bottom: 27%;
+    color: white;
+    left: 8%;
+    position: relative;
+}
+
+.texto h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.texto p{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

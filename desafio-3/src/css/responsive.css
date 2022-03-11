@@ -1,0 +1,11 @@
+@media(max-width: 630px){
+    .grade{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propaganda {
+        width: 326px;
+        height: 76px;
+    }
+}
